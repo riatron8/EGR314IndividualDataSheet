@@ -1,4 +1,4 @@
-site_name: EGR314 Riley Franco Data Sheet
+site_name: EGR314 - Riley Franco Datasheet
 site_url: https://riatron8.github.io/EGR314IndividualDataSheet/
 repo_url: https://github.com/EGR314IndividualDataSheet/EGR314RFDataSheet
 edit_uri: edit/main/docs/
@@ -59,7 +59,7 @@ extra_javascript:
 not_in_nav: |
   static
   
-copyright: "Copyright &copy; 2026 team-name-here"
+copyright: "Copyright &copy; 2026 Riley Franco"
 
 extra:
   generator: false
