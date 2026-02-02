@@ -825,7 +825,7 @@
   <h1>Module's Requirements</h1>
 
 <h2 id="module-requirements">Module Requirements</h2>
-<p>The following sections document the requirements that the this module need to fulfills to .....</p>
+<p>The following sections document the requirements that the external sensor modules need to fulfill to be able to fully and accurately take external measurements, primarily temperature and humidity. In addition, the rover should be able to send those measurements to the user through the ESP, giving the user the current external measurements. The power for the sensors will come through the rover's main battery, and be filtered by the 3.3V power switching power regulator, allowing the rover to remain wireless.</p>
 <table>
 <thead>
 <tr>
@@ -837,7 +837,7 @@
 </thead>
 <tbody>
 <tr>
-<td>Surface mounted, 3.3V switching power regulatore</td>
+<td>Surface mounted, 3.3V switching power regulator</td>
 <td>3.2 Volts</td>
 <td>3.3 Volts</td>
 <td style="text-align: center;">No</td>
@@ -845,7 +845,7 @@
 <tr>
 <td>Surface mounted microcontroller</td>
 <td>1 PIC or ESP</td>
-<td>8-bit PIC</td>
+<td>ESP32</td>
 <td style="text-align: center;">No</td>
 </tr>
 <tr>
@@ -855,10 +855,22 @@
 <td style="text-align: center;">Yes</td>
 </tr>
 <tr>
-<td><em>Rest are items your modules needs to support the task you are covering for the team's device.</em></td>
-<td>---</td>
-<td>---</td>
-<td style="text-align: center;"><strong>NO</strong></td>
+<td>Temperature sensor</td>
+<td>Able to accurately measure the ambient temperature around the rover  within 5 degrees Farenheit</td>
+<td>Sends a reading of the temperature that can be interpreted by the microcontroller</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Humidity sensor</td>
+<td>Able to accurately measure the humidity around the rover within 3% humidity in the air</td>
+<td>Sends a reading of the humidity that can be interpreted by the microcontroller</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>HMI</td>
+<td>Able to show the current temperature and humidity to the operator</td>
+<td>Shows the measurement readings, probably though an app or website, to the user continuously</td>
+<td style="text-align: center;">No</td>
 </tr>
 </tbody>
 </table>
