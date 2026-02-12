@@ -41,7 +41,7 @@ title: Appendix - Controller Table for the ESP32
 | **USB Programmer**    | 1                           | 1      | GPIO19 (D−), GPIO20 (D+)       |
 
 
-![ESP32 pinout](image-url-or-path)
+![ESP32 pinout](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/08-Microcontroller-Selection/Pinout.png)
 
 
 MCC does not have a layout for the ESP, however, by looking at the pin diagram, there should be more than enough pins to accommodate the requirements. The chip contains 38 pins, and although some are reserved for specific purposes, there are more than enough pins for the 7 needed connections.
