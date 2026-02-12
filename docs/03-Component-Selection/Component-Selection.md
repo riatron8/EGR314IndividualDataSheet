@@ -85,7 +85,7 @@ $1.15/ each
   <tr>
    <td>
 
-![Component 2](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/03-Component-Selection/Comp_2.png)
+<img src="https://raw.githubusercontent.com/riatron8/EGR314IndividualDataSheet/main/docs/03-Component-Selection/Comp_2.png" width="300">
 Option 2
 <p>
 MCP9808-E/MS
@@ -130,7 +130,7 @@ $1.40/ each
    <td>
 
 
-![Component 3](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/03-Component-Selection/Comp_3.png)
+<img src="https://raw.githubusercontent.com/riatron8/EGR314IndividualDataSheet/main/docs/03-Component-Selection/Comp_3.png" width="300">
 
 <p>
 Option 3
