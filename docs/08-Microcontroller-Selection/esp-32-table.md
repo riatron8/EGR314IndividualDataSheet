@@ -1,5 +1,5 @@
 ---
-title: Appendix - Controller Table for the ESP32
+title: Microcontroller Selection
 ---
 
 **Microcontroller Selection**
