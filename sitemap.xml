@@ -6,11 +6,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://riatron8.github.io/EGR314IndividualDataSheet/08-Microcontroller-Selectionesp-32-table/</loc>
-         <lastmod>2026-02-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://riatron8.github.io/EGR314IndividualDataSheet/01-Requirements/Requirements/</loc>
          <lastmod>2026-02-12</lastmod>
          <changefreq>daily</changefreq>
@@ -32,6 +27,11 @@
     </url>
     <url>
          <loc>https://riatron8.github.io/EGR314IndividualDataSheet/05-Schematic/schematic/</loc>
+         <lastmod>2026-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://riatron8.github.io/EGR314IndividualDataSheet/08-Microcontroller-Selection/esp-32-table/</loc>
          <lastmod>2026-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
