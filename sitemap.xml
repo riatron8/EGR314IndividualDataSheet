@@ -21,11 +21,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://riatron8.github.io/EGR314IndividualDataSheet/03-Power-Budget/Power-Budget/</loc>
-         <lastmod>2026-02-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://riatron8.github.io/EGR314IndividualDataSheet/04-BOM/BOM/</loc>
          <lastmod>2026-02-12</lastmod>
          <changefreq>daily</changefreq>
@@ -37,6 +32,11 @@
     </url>
     <url>
          <loc>https://riatron8.github.io/EGR314IndividualDataSheet/08-Microcontroller-Selection/esp-32-table/</loc>
+         <lastmod>2026-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://riatron8.github.io/EGR314IndividualDataSheet/09-Power-Budget/Power-Budget/</loc>
          <lastmod>2026-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
