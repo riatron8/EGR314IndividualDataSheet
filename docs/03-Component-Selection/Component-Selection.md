@@ -16,10 +16,9 @@ For more details, review the ["Appendix - Component Selection Process - Power Ma
 
 ### Sensor
 
-(**remove this note/placeholder**: if applicable, this is where your  **SELECTED** sensor is shown. Otherwise, remove this section.)
+**Choice**: Option 3: SHTC3-TR-10KS
 
-For more details, review the ["Appendix - Component Selection Process - Sensor"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#sensor) selection.
-
+**Rationale**: This sensor is able to detect both temperature and humidity, removing the need for a separate humidity sensor. In addition, only having 4 pins means that it should be simple to set up on the hardware side. In addition, for containing two different sensors, it is fairly cheap, and the reduced number of components. \
 
 -----------
 
@@ -38,10 +37,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
   <tr>
    <td>
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image1.png" width="" alt="alt_text" title="image_tooltip">
+![Component 1](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/03-Component-Selection/Comp_1.png)
 
 <p>
 Option 1
@@ -89,10 +85,7 @@ $1.15/ each
   <tr>
    <td>
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image2.png" width="" alt="alt_text" title="image_tooltip">
+![Component 2](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/03-Component-Selection/Comp_2.png)
 Option 2
 <p>
 MCP9808-E/MS
@@ -136,10 +129,8 @@ $1.40/ each
   <tr>
    <td>
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-<img src="images/image3.png" width="" alt="alt_text" title="image_tooltip">
+![Component 3](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/03-Component-Selection/Comp_3.png)
 
 <p>
 Option 3
@@ -171,8 +162,3 @@ $2.06/ each
   </tr>
 </table>
 
-
-**Choice**: Option 3: SHTC3-TR-10KS
-
-**Rationale**: This sensor is able to detect both temperature and humidity, removing the need for a separate humidity sensor. In addition, only having 4 pins means that it should be simple to set up on the hardware side. In addition, for containing two different sensors, it is fairly cheap, and the reduced number of components. \
- \
