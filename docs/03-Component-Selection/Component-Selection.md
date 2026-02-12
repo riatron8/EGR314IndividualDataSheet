@@ -18,7 +18,7 @@ For more details, review the ["Appendix - Component Selection Process - Power Ma
 
 **Choice**: Option 3: SHTC3-TR-10KS
 
-**Rationale**: This sensor is able to detect both temperature and humidity, removing the need for a separate humidity sensor. In addition, only having 4 pins means that it should be simple to set up on the hardware side. In addition, for containing two different sensors, it is fairly cheap, and the reduced number of components. \
+**Rationale**: This sensor is able to detect both temperature and humidity, removing the need for a separate humidity sensor. In addition, only having 4 pins means that it should be simple to set up on the hardware side. In addition, for containing two different sensors, it is fairly cheap, and the reduced number of components. 
 
 -----------
 
