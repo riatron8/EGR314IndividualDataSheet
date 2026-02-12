@@ -20,46 +20,159 @@ For more details, review the ["Appendix - Component Selection Process - Power Ma
 
 For more details, review the ["Appendix - Component Selection Process - Sensor"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#sensor) selection.
 
-### Actuator
-
-(**remove this note/placeholder**: if applicable, this is where your **Selected** the actuator items go, which includes both the driver and motor. Otherwise, remove this section.)
-
-For more details, review the ["Appendix - Component Selection Process - Actuator"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#actuator) selection.
 
 -----------
-> Remove the following before submitting! Use them to present the selected components
 
-### Style 1
+**Environment Sensor**
 
-> This is the example found in the assignment, uses more html
 
-*Table 1: Example component selection*
+<table>
+  <tr>
+   <td>Solution
+   </td>
+   <td>Pros
+   </td>
+   <td>Cons
+   </td>
+  </tr>
+  <tr>
+   <td>
 
-**External Clock Module**
+<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-| **Component**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
 
-**Rationale:** A clock oscillator is easier ....
+<img src="images/image1.png" width="" alt="alt_text" title="image_tooltip">
 
-### Style 2
+<p>
+Option 1
+<p>
+TC74A4-3.3VCTTR
+<p>
+$1.15/ each
+<p>
+<em><a href="https://www.digikey.com/en/products/detail/microchip-technology/TC74A4-3-3VCTTR/443268">Link to product</a> </em>
+   </td>
+   <td>
+<ul>
 
-> Also acceptable, more markdown friendly
+<li>Already used in class</li>
 
-**External Clock Module**
+<li>Low pin count</li>
 
-1. XC1259TR-ND surface mount crystal
+<li>Very simple and easy to set up</li>
+</ul>
+   </td>
+   <td>
+<ul>
 
-    ![](image1.png)
+<li>Not especially accurate</li>
 
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+<li>Lower resolution than competition</li>
 
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+<li>Low acceptable voltage range</li>
+</ul>
+   </td>
+  </tr>
+</table>
 
-**Rationale:** A clock oscillator is easier ...
+
+
+<table>
+  <tr>
+   <td>Solution
+   </td>
+   <td>Pros
+   </td>
+   <td>Cons
+   </td>
+  </tr>
+  <tr>
+   <td>
+
+<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/image2.png" width="" alt="alt_text" title="image_tooltip">
+Option 2
+<p>
+MCP9808-E/MS
+<p>
+$1.40/ each
+<p>
+<em><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP9808-E-MS/2802083">Link to product</a> </em>
+   </td>
+   <td>
+<ul>
+
+<li>Very accurate</li>
+
+<li>Higher resolution</li>
+
+<li>Good voltage range</li>
+</ul>
+   </td>
+   <td>
+<ul>
+
+<li>Less simple and has more pins to be aware of.</li>
+
+<li>Slightly more expensive</li>
+</ul>
+   </td>
+  </tr>
+</table>
+
+
+
+<table>
+  <tr>
+   <td>Solution
+   </td>
+   <td>Pros
+   </td>
+   <td>Cons
+   </td>
+  </tr>
+  <tr>
+   <td>
+
+<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/image3.png" width="" alt="alt_text" title="image_tooltip">
+
+<p>
+Option 3
+<p>
+SHTC3-TR-10KS
+<p>
+$2.06/ each
+<p>
+<em><a href="https://www.digikey.com/en/products/detail/sensirion-ag/SHTC3-TR-10KS/9477852?utm_source=chatgpt.com">Link to product</a> </em>
+   </td>
+   <td>
+<ul>
+
+<li>Detects temperature and humidity</li>
+
+<li>Few pins</li>
+
+<li>Quite accurate</li>
+</ul>
+   </td>
+   <td>
+<ul>
+
+<li>Very small package</li>
+
+<li>Unfamiliar setup</li>
+</ul>
+   </td>
+  </tr>
+</table>
+
+
+**Choice**: Option 3: SHTC3-TR-10KS
+
+**Rationale**: This sensor is able to detect both temperature and humidity, removing the need for a separate humidity sensor. In addition, only having 4 pins means that it should be simple to set up on the hardware side. In addition, for containing two different sensors, it is fairly cheap, and the reduced number of components. \
+ \
