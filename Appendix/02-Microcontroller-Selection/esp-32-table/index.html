@@ -997,6 +997,16 @@
 
   <h1>Appendix - Controller Table for the ESP32</h1>
 
+<p><strong>Microcontroller Selection</strong></p>
+<p><strong>ESP32-WROOM-32-N4</strong></p>
+<ul>
+<li>
+<p>No SPI pins, 2 I2C pins, 2 pins for UART, and 3 pins for power and ground, totaling 7 pins</p>
+</li>
+<li>
+<p>My role in the team is to use a sensor to measure the environment around the rover, and give those measurements to the user. I plan to accomplish this with a sensor on the robot, and sending the sensor values to the web app or website, whichever is chosen to control the rover. After readings are sent, the sensors will continue to monitor the environment and change the outputs accordingly.</p>
+</li>
+</ul>
 <table>
 <thead>
 <tr>
@@ -1007,79 +1017,74 @@
 </thead>
 <tbody>
 <tr>
-<td>Model</td>
-<td>?</td>
-<td>Include the entire part number (leave off any letters at the end that specify the package type)</td>
+<td><strong>Model</strong></td>
+<td>ESP32-S3-WROOM-1-N4</td>
+<td>Include entire part number (omit package suffix letters)</td>
 </tr>
 <tr>
-<td>Product Page URL</td>
-<td>?</td>
+<td><strong>Product Page URL</strong></td>
+<td><a href="https://www.espressif.com/en/products/modules/esp32-s3-wroom-1">ESP32-S3-WROOM-1 Product Page</a></td>
 <td>Found on Espressif.com</td>
 </tr>
 <tr>
-<td>ESP32-S3-WROOM-1-N4 Datasheet URL</td>
-<td>?</td>
-<td>Do not paste links directly into the table.  Use a <a href="#">link</a></td>
+<td><strong>ESP32-S3-WROOM-1 Datasheet URL</strong></td>
+<td><a href="https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf">ESP32-S3-WROOM-1 Datasheet</a></td>
+<td>Module datasheet</td>
 </tr>
 <tr>
-<td>ESP32 S3 Datasheet URL</td>
-<td>?</td>
-<td>Has more detail on functions</td>
+<td><strong>ESP32-S3 Datasheet URL</strong></td>
+<td><a href="https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf">ESP32-S3 Series Datasheet</a></td>
+<td>SoC details</td>
 </tr>
 <tr>
-<td>ESP32 S3 Technical Reference Manual URL</td>
-<td>?</td>
-<td>Has details on I/O multiplexing, USB, and others</td>
+<td><strong>ESP32-S3 Technical Reference Manual URL</strong></td>
+<td><a href="https://www.espressif.com/sites/default/files/documentation/esp32-s3_technical_reference_manual_en.pdf">ESP32-S3 TRM</a></td>
+<td>I/O muxing, USB, etc.</td>
 </tr>
 <tr>
-<td>Vendor link</td>
-<td>?</td>
-<td>Digikey, Jameco, etc.  Do not paste links directly into the table.  Use a <a href="#">link</a></td>
+<td><strong>Vendor Link</strong></td>
+<td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639">DigiKey Product Page</a></td>
+<td>Vendor purchase link</td>
 </tr>
 <tr>
-<td>Code Examples</td>
-<td>?</td>
-<td>url(s) for libraries on github or other sites related to the microcontroller and your planned peripherals</td>
+<td><strong>Code Examples</strong></td>
+<td><a href="https://github.com/espressif/esp-idf/tree/master/examples/wifi/getting_started/station">ESP-IDF WiFi Example</a> <br> <a href="https://github.com/espressif/esp-idf/tree/master/examples/peripherals/i2c">ESP-IDF I2C Example</a> <br> <a href="https://github.com/sparkfun/SparkFun_SHTC3_Arduino_Library">SHTC3 Arduino Library</a></td>
+<td>Related to Wi-Fi + I2C sensor</td>
 </tr>
 <tr>
-<td>External Resources URL(s)</td>
-<td>?</td>
-<td>Search on Google and YouTube for other resources for each specific microcontroller.</td>
+<td><strong>External Resources</strong></td>
+<td><a href="https://randomnerdtutorials.com/esp32-s3-devkitc-pinout-guide/">Random Nerd Tutorials ESP32-S3 Guide</a></td>
+<td>Tutorials / videos</td>
 </tr>
 <tr>
-<td>Unit cost</td>
-<td>?</td>
-<td>Find on Digikey, Jameco, MPJA, or octopart</td>
+<td><strong>Unit Cost</strong></td>
+<td>~$5.00 (qty 1, DigiKey)</td>
+<td>Vendor pricing</td>
 </tr>
 <tr>
-<td>Absolute Maximum Current for entire IC</td>
-<td>?</td>
-<td>Find in the microcontroller datasheet</td>
+<td><strong>Absolute Maximum Current (entire IC)</strong></td>
+<td>1500 mA cumulative IO output (absolute max rating)</td>
+<td>From datasheet</td>
 </tr>
 <tr>
-<td>Supply Voltage Range</td>
-<td>?</td>
-<td>Min / Nominal / Max / Absolute Max, as found in datasheet</td>
+<td><strong>Supply Voltage Range</strong></td>
+<td>Recommended: 3.0 – 3.6 V (3.3 V nominal) <br> Absolute Max: −0.3 V to 3.6 V</td>
+<td>From datasheet</td>
 </tr>
 <tr>
-<td>Absolute Maximum current <br> (for entire IC)</td>
-<td>?</td>
-<td>as found in datasheet</td>
+<td><strong>Maximum GPIO Current (per pin)</strong></td>
+<td>~40 mA source, ~28 mA sink (typical test conditions)</td>
+<td>From datasheet</td>
 </tr>
 <tr>
-<td>Maximum GPIO current <br> (per pin)</td>
-<td>?</td>
-<td>as found in datasheet</td>
+<td><strong>Supports External Interrupts?</strong></td>
+<td>Yes</td>
+<td>GPIO interrupt capable</td>
 </tr>
 <tr>
-<td>Supports External Interrupts?</td>
-<td>?</td>
-<td>as found in datasheet</td>
-</tr>
-<tr>
-<td>Required Programming Hardware, Cost, URL</td>
-<td>?</td>
-<td>as found in datasheet</td>
+<td><strong>Required Programming Hardware</strong></td>
+<td>None required (built-in USB Serial/JTAG)</td>
+<td>USB flash/debug</td>
 </tr>
 </tbody>
 </table>
@@ -1094,62 +1099,57 @@
 </thead>
 <tbody>
 <tr>
-<td>UART</td>
-<td>?</td>
-<td>?</td>
-<td>?</td>
-</tr>
-<tr>
-<td>external SPI*</td>
-<td>?</td>
-<td>?</td>
-<td>?</td>
-</tr>
-<tr>
-<td>I2C</td>
-<td>?</td>
-<td>?</td>
-<td>?</td>
-</tr>
-<tr>
-<td>GPIO</td>
-<td>?</td>
-<td>?</td>
-<td>?</td>
-</tr>
-<tr>
-<td>ADC</td>
-<td>?</td>
-<td>?</td>
-<td>?</td>
-</tr>
-<tr>
-<td>LED PWM</td>
-<td>?</td>
-<td>?</td>
-<td>?</td>
-</tr>
-<tr>
-<td>Motor PWM</td>
-<td>?</td>
-<td>?</td>
-<td>?</td>
-</tr>
-<tr>
-<td>USB Programmer</td>
-<td>?</td>
+<td><strong>UART</strong></td>
+<td>3</td>
 <td>1</td>
-<td>?</td>
+<td>* (GPIO matrix routable)</td>
 </tr>
 <tr>
-<td>...</td>
-<td></td>
-<td></td>
-<td></td>
+<td><strong>External SPI</strong>*</td>
+<td>2</td>
+<td>0</td>
+<td>*</td>
+</tr>
+<tr>
+<td><strong>I2C</strong></td>
+<td>2</td>
+<td>1</td>
+<td>SDA/SCL = *</td>
+</tr>
+<tr>
+<td><strong>GPIO</strong></td>
+<td>45</td>
+<td>0</td>
+<td>*</td>
+</tr>
+<tr>
+<td><strong>ADC</strong></td>
+<td>2 units (20 channels total)</td>
+<td>0</td>
+<td>Analog-capable GPIOs</td>
+</tr>
+<tr>
+<td><strong>LED PWM (LEDC)</strong></td>
+<td>8 channels</td>
+<td>0</td>
+<td>*</td>
+</tr>
+<tr>
+<td><strong>Motor PWM (MCPWM)</strong></td>
+<td>2 peripherals</td>
+<td>0</td>
+<td>*</td>
+</tr>
+<tr>
+<td><strong>USB Programmer</strong></td>
+<td>1</td>
+<td>1</td>
+<td>GPIO19 (D−), GPIO20 (D+)</td>
 </tr>
 </tbody>
 </table>
-<p>* The ESP32-S2 has multiple SPI interfaces, but some are for internal use</p>
+<p>MCC does not have a layout for the ESP, however, by looking at the pin diagram, there should be more than enough pins to accommodate the requirements. The chip contains 38 pins, and although some are reserved for specific purposes, there are more than enough pins for the 7 needed connections.</p>
+<p>I have decided to go with the ESP32-WROOM-32-N4. It is a surface mount version of the ESP32 chip I am already familiar with. Initially, the ESP32-S2 was considered, however, the component had the QFN package, disqualifying it for this project. The ESP32 in general is also necessary over the PIC, as I need to be able to access a wireless connection to display the measurements to the user, and the ESP32 is superior to the PIC for that purpose. </p>
 
 
 
