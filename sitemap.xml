@@ -6,11 +6,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://riatron8.github.io/EGR314IndividualDataSheet/03-Power-BudgetPower-Budget/</loc>
-         <lastmod>2026-02-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://riatron8.github.io/EGR314IndividualDataSheet/01-Requirements/Requirements/</loc>
          <lastmod>2026-02-12</lastmod>
          <changefreq>daily</changefreq>
@@ -22,6 +17,11 @@
     </url>
     <url>
          <loc>https://riatron8.github.io/EGR314IndividualDataSheet/03-Component-Selection/Component-Selection/</loc>
+         <lastmod>2026-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://riatron8.github.io/EGR314IndividualDataSheet/03-Power-Budget/Power-Budget/</loc>
          <lastmod>2026-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
