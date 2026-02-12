@@ -41,6 +41,9 @@ title: Appendix - Controller Table for the ESP32
 | **USB Programmer**    | 1                           | 1      | GPIO19 (D−), GPIO20 (D+)       |
 
 
+![ESP32 pinout](image-url-or-path)
+
+
 MCC does not have a layout for the ESP, however, by looking at the pin diagram, there should be more than enough pins to accommodate the requirements. The chip contains 38 pins, and although some are reserved for specific purposes, there are more than enough pins for the 7 needed connections.
 
 I have decided to go with the ESP32-WROOM-32-N4. It is a surface mount version of the ESP32 chip I am already familiar with. Initially, the ESP32-S2 was considered, however, the component had the QFN package, disqualifying it for this project. The ESP32 in general is also necessary over the PIC, as I need to be able to access a wireless connection to display the measurements to the user, and the ESP32 is superior to the PIC for that purpose. 
