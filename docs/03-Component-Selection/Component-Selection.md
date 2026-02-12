@@ -37,7 +37,8 @@ For more details, review the ["Appendix - Component Selection Process - Power Ma
   <tr>
    <td>
 
-![Component 1](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/03-Component-Selection/Comp_1.png)
+![Component 1](https://raw.githubusercontent.com/riatron8/EGR314IndividualDataSheet/main/docs/03-Component-Selection/Comp_1.png)
+
 
 <p>
 Option 1
