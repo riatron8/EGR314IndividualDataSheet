@@ -24,7 +24,6 @@ For more details, review the ["Appendix - Component Selection Process - Power Ma
 
 **Environment Sensor**
 
-
 <table>
   <tr>
    <td>Solution
@@ -37,7 +36,7 @@ For more details, review the ["Appendix - Component Selection Process - Power Ma
   <tr>
    <td>
 
-![Component 1](https://raw.githubusercontent.com/riatron8/EGR314IndividualDataSheet/main/docs/03-Component-Selection/Comp_1.png)
+<img src="https://raw.githubusercontent.com/riatron8/EGR314IndividualDataSheet/main/docs/03-Component-Selection/Comp_1.png" width="300">
 
 
 <p>
