@@ -4,9 +4,9 @@ title: Module's Selected Major Components
 
 ## Module's Selected Major Components
 
-The following sections are the selected major components necessary for  .....
+The following sections are the selected major components necessary for properly measuring the environement around the rover, and the power neccessary to keep the measurement operational.
 
->**For each of the following sections, use <ins>one of the two styles</ins> given near the end. *REMOVE THIS NOTE***
+
 
 ### Power Management
 
@@ -14,11 +14,13 @@ The following sections are the selected major components necessary for  .....
 
 For more details, review the ["Appendix - Component Selection Process - Power Mangement"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#power-management) selection.
 
+**Choice**: Option 2: MCP9808-E/MS
+
 ### Sensor
 
-**Choice**: Option 3: SHTC3-TR-10KS
+**Choice**: Option 2: MCP9808-E/MS
 
-**Rationale**: This sensor is able to detect both temperature and humidity, removing the need for a separate humidity sensor. In addition, only having 4 pins means that it should be simple to set up on the hardware side. In addition, for containing two different sensors, it is fairly cheap, and the reduced number of components. 
+**Rationale**: This sensor is able to accurately detect humidity with a fairly low cost, even compared to the less precise option. Since a team member will be measuring temperature, the added temperature functionality is not needed and not worth the extra cost.
 
 -----------
 
