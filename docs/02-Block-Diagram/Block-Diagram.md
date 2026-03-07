@@ -10,4 +10,4 @@ This block diagram shows the current state of the planning for the final board. 
 
 ## Block Diagram 
 
-![Individual Block diagram ](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/02-Block-Diagram/843f50ba-1.png)
+![Individual Block diagram ](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/02-Block-Diagram/Final_314%20Individual%20block%20diagram.drawio.png)
