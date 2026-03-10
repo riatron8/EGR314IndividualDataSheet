@@ -132,6 +132,7 @@ For more details, review the ["Appendix - Component Selection Process - Power Ma
   </tr>
   <tr>
     <td>
+      <img src="https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/03-Component-Selection/Regulator_1.png" width="300"><br>
       <strong>Option 1</strong><br>
       LM2595S-3.3/NOPB<br>
       $5.35 / each<br>
@@ -164,6 +165,7 @@ For more details, review the ["Appendix - Component Selection Process - Power Ma
   </tr>
   <tr>
     <td>
+      <img src="https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/03-Component-Selection/Regulator_2.png" width="300"><br>
       <strong>Option 2</strong><br>
       AMS1117-3.3<br>
       $0.40 / each<br>
@@ -197,6 +199,7 @@ For more details, review the ["Appendix - Component Selection Process - Power Ma
   </tr>
   <tr>
     <td>
+      <img src="https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/03-Component-Selection/Regulator_3.png" width="300"><br>
       <strong>Option 3</strong><br>
       MP1584EN<br>
       $1.20 / each<br>
