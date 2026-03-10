@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Overview
-This block diagram shows the current state of the planning for the final board. Currently, components and exact ports are not known, with the overall goal being to use a temperture and humidity sensor, and display the readings to some sort of HMI or web display for the user. The power will be coming in with 9V, likely shared to the board from the motor board. The board will be able to connect to other parts of the board, such as to receive other signals or measurements to be displayed.
+This block diagram shows the planning for the final board. The overall goal is to use a humidity sensor, and send the results to a team member to display them to the user. The power will be coming in with 12V, from either a wall or a team member. The board will be able to connect to other parts of the board, such as to receive other signals or measurements to be displayed.
 
 ## Block Diagram 
 
