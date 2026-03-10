@@ -29,4 +29,4 @@ Note: Setting it up as a table is nice because it is completely viewable without
 
 ## Resouce
 
-The Bill of Material as a PDF download is available [*here*](PDF_For_BOM_EXAMPLE.pdf).
+The Bill of Material as a PDF download is available [*here*](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/04-BOM/png2pdf%20(1).pdf).
