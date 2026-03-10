@@ -10,4 +10,4 @@ The following sections document the requirements that the external sensor module
 | Surface mounted, 3.3V switching power regulator | 3.2 Volts | 3.3 Volts | No |
 | Surface mounted microcontroller | 1 PIC or ESP | PIC | No |
 | Humidity sensor | Able to accurately measure the humidity around the rover within 3% humidity in the air | Sends a reading of the humidity that can be interpreted by the microcontroller  | No |
-| HMI | Able to show the current temperature and humidity to the operator | Shows the measurement readings, probably though an app or website, to the user continuously | No |
+
