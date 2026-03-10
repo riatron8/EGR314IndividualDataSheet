@@ -19,4 +19,4 @@ From the prepare Power Budget, .....
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](PowerBudgetExample.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetExample.xlsx).
+The power budget as a PDF download is available [*here*](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/09-Power-Budget/Power_budget_pic.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetExample.xlsx).
