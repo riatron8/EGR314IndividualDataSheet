@@ -89,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#title-microcontroller-selection" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -798,6 +803,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Microcontroller Selection
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -807,6 +823,32 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#title-microcontroller-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      title: Microcontroller Selection
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -936,6 +978,23 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#title-microcontroller-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      title: Microcontroller Selection
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -959,20 +1018,22 @@
 
   <h1>Microcontroller Selection</h1>
 
+<hr>
+<h2 id="title-microcontroller-selection">title: Microcontroller Selection</h2>
 <p><strong>Microcontroller Selection</strong></p>
-<p><strong>ESP32-WROOM-32-N4</strong></p>
+<p><strong>PIC18F57Q43-I/PT</strong></p>
 <ul>
 <li>
-<p>No SPI pins, 2 I2C pins, 2 pins for UART, and 3 pins for power and ground, totaling 7 pins</p>
+<p>2 pins for I2C communication (SDA and SCL), optional UART pins for debugging/communication, and multiple power and ground pins available on the package.</p>
 </li>
 <li>
-<p>My role in the team is to use a sensor to measure the environment around the rover, and give those measurements to the user. I plan to accomplish this with a sensor on the robot, and sending the sensor values to the web app or website, whichever is chosen to control the rover. After readings are sent, the sensors will continue to monitor the environment and change the outputs accordingly.</p>
+<p>My role in the team is to use a sensor to measure the environment around the rover and provide those measurements to the user. I plan to accomplish this by connecting environmental sensors to the microcontroller using the I2C interface. The PIC will read the sensor values and send them to another controller or communication module on the rover that handles transmitting the data to the website or app used to control the rover. The sensors will continue monitoring the environment and update the measurements as conditions change.</p>
 </li>
 </ul>
 <table>
 <thead>
 <tr>
-<th>ESP Info</th>
+<th>PIC Info</th>
 <th>Answer</th>
 <th>Help</th>
 </tr>
@@ -980,73 +1041,68 @@
 <tbody>
 <tr>
 <td><strong>Model</strong></td>
-<td>ESP32-S3-WROOM-1-N4</td>
+<td>PIC18F57Q43</td>
 <td>Include entire part number (omit package suffix letters)</td>
 </tr>
 <tr>
 <td><strong>Product Page URL</strong></td>
-<td><a href="https://www.espressif.com/en/products/modules/esp32-s3-wroom-1">ESP32-S3-WROOM-1 Product Page</a></td>
-<td>Found on Espressif.com</td>
+<td><a href="https://www.microchip.com/en-us/product/PIC18F57Q43">PIC18F57Q43 Product Page</a></td>
+<td>Found on Microchip.com</td>
 </tr>
 <tr>
-<td><strong>ESP32-S3-WROOM-1 Datasheet URL</strong></td>
-<td><a href="https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf">ESP32-S3-WROOM-1 Datasheet</a></td>
-<td>Module datasheet</td>
+<td><strong>PIC18F57Q43 Datasheet URL</strong></td>
+<td><a href="https://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F27-47-57Q43-Data-Sheet-40002147.pdf">PIC18F57Q43 Datasheet</a></td>
+<td>Primary device datasheet</td>
 </tr>
 <tr>
-<td><strong>ESP32-S3 Datasheet URL</strong></td>
-<td><a href="https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf">ESP32-S3 Series Datasheet</a></td>
-<td>SoC details</td>
-</tr>
-<tr>
-<td><strong>ESP32-S3 Technical Reference Manual URL</strong></td>
-<td><a href="https://www.espressif.com/sites/default/files/documentation/esp32-s3_technical_reference_manual_en.pdf">ESP32-S3 TRM</a></td>
-<td>I/O muxing, USB, etc.</td>
+<td><strong>Technical Reference Manual URL</strong></td>
+<td><a href="https://www.microchip.com/en-us/products/microcontrollers/8-bit-mcus/pic18-q43">PIC18-Q43 Family Reference</a></td>
+<td>Peripheral documentation</td>
 </tr>
 <tr>
 <td><strong>Vendor Link</strong></td>
-<td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639">DigiKey Product Page</a></td>
+<td><a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC18F57Q43-I-PT/11618236">DigiKey Product Page</a></td>
 <td>Vendor purchase link</td>
 </tr>
 <tr>
 <td><strong>Code Examples</strong></td>
-<td><a href="https://github.com/espressif/esp-idf/tree/master/examples/wifi/getting_started/station">ESP-IDF WiFi Example</a> <br> <a href="https://github.com/espressif/esp-idf/tree/master/examples/peripherals/i2c">ESP-IDF I2C Example</a> <br> <a href="https://github.com/sparkfun/SparkFun_SHTC3_Arduino_Library">SHTC3 Arduino Library</a></td>
-<td>Related to Wi-Fi + I2C sensor</td>
+<td><a href="https://github.com/microchip-pic-avr-examples">Microchip MCC Melody Examples</a> <br> <a href="https://github.com/microchip-pic-avr-examples/pic18f57q43-i2c-host-example">I2C Host Example</a></td>
+<td>Peripheral usage examples</td>
 </tr>
 <tr>
 <td><strong>External Resources</strong></td>
-<td><a href="https://randomnerdtutorials.com/esp32-s3-devkitc-pinout-guide/">Random Nerd Tutorials ESP32-S3 Guide</a></td>
-<td>Tutorials / videos</td>
+<td><a href="https://www.microchip.com/en-us/products/microcontrollers/8-bit-mcus/pic18-q43">Microchip PIC18 Q43 Overview</a></td>
+<td>Tutorials / documentation</td>
 </tr>
 <tr>
 <td><strong>Unit Cost</strong></td>
-<td>~$5.00 (qty 1, DigiKey)</td>
+<td>~$3.50 (qty 1, DigiKey)</td>
 <td>Vendor pricing</td>
 </tr>
 <tr>
 <td><strong>Absolute Maximum Current (entire IC)</strong></td>
-<td>1500 mA cumulative IO output (absolute max rating)</td>
+<td>200 mA total through VDD/VSS pins</td>
 <td>From datasheet</td>
 </tr>
 <tr>
 <td><strong>Supply Voltage Range</strong></td>
-<td>Recommended: 3.0 – 3.6 V (3.3 V nominal) <br> Absolute Max: −0.3 V to 3.6 V</td>
+<td>Recommended: 1.8 – 5.5 V</td>
 <td>From datasheet</td>
 </tr>
 <tr>
 <td><strong>Maximum GPIO Current (per pin)</strong></td>
-<td>~40 mA source, ~28 mA sink (typical test conditions)</td>
+<td>25 mA source/sink (max rating)</td>
 <td>From datasheet</td>
 </tr>
 <tr>
 <td><strong>Supports External Interrupts?</strong></td>
 <td>Yes</td>
-<td>GPIO interrupt capable</td>
+<td>Multiple interrupt-on-change pins</td>
 </tr>
 <tr>
 <td><strong>Required Programming Hardware</strong></td>
-<td>None required (built-in USB Serial/JTAG)</td>
-<td>USB flash/debug</td>
+<td>Microchip SNAP / PICkit 4 / PICkit 5</td>
+<td>ICSP programming interface</td>
 </tr>
 </tbody>
 </table>
@@ -1056,63 +1112,57 @@
 <th>Module</th>
 <th># Available</th>
 <th>Needed</th>
-<th>Associated Pins (or * for any)</th>
+<th>Associated Pins</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>UART</strong></td>
-<td>3</td>
-<td>1</td>
-<td>* (GPIO matrix routable)</td>
+<td>2 (EUSART)</td>
+<td>0–1</td>
+<td>Configurable via PPS</td>
 </tr>
 <tr>
-<td><strong>External SPI</strong>*</td>
+<td><strong>SPI</strong></td>
 <td>2</td>
 <td>0</td>
-<td>*</td>
+<td>Configurable via PPS</td>
 </tr>
 <tr>
 <td><strong>I2C</strong></td>
-<td>2</td>
+<td>2 MSSP modules</td>
 <td>1</td>
-<td>SDA/SCL = *</td>
+<td>SDA/SCL via PPS</td>
 </tr>
 <tr>
 <td><strong>GPIO</strong></td>
-<td>45</td>
-<td>0</td>
-<td>*</td>
+<td>44 I/O pins</td>
+<td>~2</td>
+<td>Any GPIO</td>
 </tr>
 <tr>
 <td><strong>ADC</strong></td>
-<td>2 units (20 channels total)</td>
+<td>12-bit ADC (up to 35 channels)</td>
 <td>0</td>
-<td>Analog-capable GPIOs</td>
+<td>Analog capable pins</td>
 </tr>
 <tr>
-<td><strong>LED PWM (LEDC)</strong></td>
-<td>8 channels</td>
+<td><strong>PWM</strong></td>
+<td>Multiple CCP/PWM modules</td>
 <td>0</td>
-<td>*</td>
+<td>Configurable</td>
 </tr>
 <tr>
-<td><strong>Motor PWM (MCPWM)</strong></td>
-<td>2 peripherals</td>
-<td>0</td>
-<td>*</td>
-</tr>
-<tr>
-<td><strong>USB Programmer</strong></td>
+<td><strong>Program/Debug</strong></td>
+<td>1 ICSP interface</td>
 <td>1</td>
-<td>1</td>
-<td>GPIO19 (D−), GPIO20 (D+)</td>
+<td>MCLR, PGD, PGC</td>
 </tr>
 </tbody>
 </table>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/08-Microcontroller-Selection/Pinout.png" data-desc-position="bottom"><img alt="ESP32 pinout" src="https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/08-Microcontroller-Selection/Pinout.png"></a></p>
-<p>MCC does not have a layout for the ESP, however, by looking at the pin diagram, there should be more than enough pins to accommodate the requirements. The chip contains 38 pins, and although some are reserved for specific purposes, there are more than enough pins for the 7 needed connections.</p>
-<p>I have decided to go with the ESP32-WROOM-32-N4. It is a surface mount version of the ESP32 chip I am already familiar with. Initially, the ESP32-S2 was considered, however, the component had the QFN package, disqualifying it for this project. The ESP32 in general is also necessary over the PIC, as I need to be able to access a wireless connection to display the measurements to the user, and the ESP32 is superior to the PIC for that purpose. </p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://ww1.microchip.com/downloads/aemDocuments/images/en-us/ProductPinout/PIC18F57Q43-TQFP-Pinout.png" data-desc-position="bottom"><img alt="PIC18F57Q43 pinout" src="https://ww1.microchip.com/downloads/aemDocuments/images/en-us/ProductPinout/PIC18F57Q43-TQFP-Pinout.png"></a></p>
+<p>Using the pin diagram for the PIC18F57Q43, there are more than enough pins available for the project requirements. The TQFP-48 package contains 48 pins, with over 40 configurable GPIO pins. Since the project only requires two pins for the I2C interface and possibly additional pins for debugging or communication, the microcontroller easily supports the required connections.</p>
+<p>I have decided to go with the PIC18F57Q43-I/PT. This microcontroller is part of the PIC18 Q43 family and provides the peripherals needed for the project, including I2C communication for sensor integration. The device is also compatible with Microchip’s MPLAB X environment and MCC Melody, which simplifies peripheral configuration and code generation. Although the PIC does not include built-in wireless connectivity like the ESP32, it is well suited for interfacing with sensors and communicating with other controllers on the rover that handle wireless communication. The TQFP package also satisfies the surface mount requirement for this project.</p>
 
 
 
