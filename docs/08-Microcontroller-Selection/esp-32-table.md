@@ -43,7 +43,7 @@ title: Microcontroller Selection
 | **Program/Debug** | 1 ICSP interface | 1 | MCLR, PGD, PGC |
 
 
-![PIC18F57Q43 pinout](https://ww1.microchip.com/downloads/aemDocuments/images/en-us/ProductPinout/PIC18F57Q43-TQFP-Pinout.png)
+![PIC18F57Q43 pinout](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/08-Microcontroller-Selection/PIC_pinout.png)
 
 
 Using the pin diagram for the PIC18F57Q43, there are more than enough pins available for the project requirements. The TQFP-48 package contains 48 pins, with over 40 configurable GPIO pins. Since the project only requires two pins for the I2C interface and possibly additional pins for debugging or communication, the microcontroller easily supports the required connections.
