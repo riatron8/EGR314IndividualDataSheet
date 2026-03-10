@@ -10,11 +10,9 @@ The following sections are the selected major components necessary for properly 
 
 ### Power Management
 
-(**remove this note/placeholder**: this is where your 3.3 volt switching regulator, any other needed power regulator, and power source {if applicable} **THAT WERE SELECTED**)
+**Choice**: Option 1 - LM2595S-3.3/NOPB
 
-For more details, review the ["Appendix - Component Selection Process - Power Mangement"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#power-management) selection.
-
-**Choice**: Option 2: MCP9808-E/MS
+**Rationale**: The LM2595S-3.3 switching regulator was selected as the final solution because it efficiently converts the 12 V system input voltage to the required 3.3 V rail used by the microcontroller and sensors. Unlike the AMS1117 linear regulator, which would dissipate a significant amount of power as heat when dropping from 12 V to 3.3 V, the LM2595 maintains high efficiency and significantly reduces thermal losses. While the MP1584EN also provides efficient voltage conversion, the LM2595 was chosen due to its simpler design requirements and widespread documentation, making it easier to implement reliably. Overall, the LM2595 provides the best balance of efficiency, reliability, and ease of implementation for the rover system.
 
 ### Sensor
 
