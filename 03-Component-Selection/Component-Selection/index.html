@@ -1205,6 +1205,97 @@ $2.06/ each
 
 <li>Very small package</li>
 
+**Voltage Regulator**
+
+Option 1
+
+LM2595S-3.3/NOPB
+$5.35 / each
+Link to product
+
+Pros
+
+High efficiency switching regulator (~80–90%)
+
+Wide input voltage range (4.5–40 V)
+
+Can easily step down 12 V to 3.3 V
+
+Capable of supplying up to 1 A output current
+
+Lower heat generation compared to linear regulators
+
+Cons
+
+Requires additional external components (inductor, diode, capacitors)
+
+Slightly more complex circuit design
+
+Larger footprint than simple linear regulators
+
+Option 2
+
+AMS1117-3.3
+$0.40 / each
+Link to product
+
+Pros
+
+Very simple to implement
+
+Requires very few external components
+
+Small circuit footprint
+
+Low cost
+
+Cons
+
+Linear regulator (low efficiency)
+
+Large power loss when converting from 12 V to 3.3 V
+
+Significant heat generation
+
+Limited current capability (~800 mA)
+
+Poor choice for large voltage drops
+
+Option 3
+
+MP1584EN Step-Down Converter
+$1.20 / each
+Link to product
+
+Pros
+
+High efficiency (~90%)
+
+Small switching regulator
+
+Supports up to 3 A output current
+
+Very compact design
+
+Wide input voltage range
+
+Cons
+
+Requires careful PCB layout
+
+Slightly more complex configuration
+
+Less familiar device compared to common regulators
+
+Datasheet and configuration slightly harder for beginners
+
+Choice: Option 1 – LM2595S-3.3/NOPB
+Rationale
+
+The LM2595S-3.3 switching regulator was selected as the final solution because it efficiently converts the 12 V system input voltage to the required 3.3 V rail used by the microcontroller and sensors. Unlike the AMS1117 linear regulator, which would dissipate a significant amount of power as heat when dropping from 12 V to 3.3 V, the LM2595 maintains high efficiency and significantly reduces thermal losses. While the MP1584EN also provides efficient voltage conversion, the LM2595 was chosen due to its simpler design requirements and widespread documentation, making it easier to implement reliably. Overall, the LM2595 provides the best balance of efficiency, reliability, and ease of implementation for the rover system.
+
+If you'd like, I can also make a second comparison table for the power source selection (A23 battery vs wall adapter vs Li-ion pack), which is usually expected alongside the regulator comparison in this assignment.
+
 <li>Unfamiliar setup</li>
 </ul>
    </td>
