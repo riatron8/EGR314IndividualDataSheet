@@ -5,9 +5,11 @@ title: Appendix - Power Budget
 ## Overview
 This power budget is used to ensure that all the selected components can be properly powered by the selected power source.
 
-![budget1](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/09-Power-Budget/55210420-1.png){style width:"350" height:"300;"}
+![budget1](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/09-Power-Budget/Final_Power_Budget_1.png){style width:"350" height:"300;"}
 
-![budget2](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/09-Power-Budget/55210420-2.png){style width:"350" height:"300;"}
+![budget2](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/09-Power-Budget/Final_Power_Budget_2.png){style width:"350" height:"300;"}
+
+![budget3](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/09-Power-Budget/Final_Power_Budget_3.png){style width:"350" height:"300;"}
 
 ## Conclusions
 
