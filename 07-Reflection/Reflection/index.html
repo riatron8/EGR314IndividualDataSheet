@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#review-of-modules-sucess" class="md-skip">
+        <a href="#review-of-modules-success" class="md-skip">
           Skip to content
         </a>
       
@@ -918,18 +918,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#review-of-modules-sucess" class="md-nav__link">
+  <a href="#review-of-modules-success" class="md-nav__link">
     <span class="md-ellipsis">
-      Review of Module's Sucess
+      Review of Module's Success
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#version-20" class="md-nav__link">
+  <a href="#microcontroller-module-startup-tips" class="md-nav__link">
     <span class="md-ellipsis">
-      Version 2.0
+      Microcontroller / Module Startup Tips
     </span>
   </a>
   
@@ -1270,18 +1270,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#review-of-modules-sucess" class="md-nav__link">
+  <a href="#review-of-modules-success" class="md-nav__link">
     <span class="md-ellipsis">
-      Review of Module's Sucess
+      Review of Module's Success
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#version-20" class="md-nav__link">
+  <a href="#microcontroller-module-startup-tips" class="md-nav__link">
     <span class="md-ellipsis">
-      Version 2.0
+      Microcontroller / Module Startup Tips
     </span>
   </a>
   
@@ -1330,20 +1330,43 @@
 
   <h1>Reflection</h1>
 
-<h2 id="review-of-modules-sucess">Review of Module's Sucess</h2>
-<p>dfgh</p>
-<h2 id="version-20">Version 2.0</h2>
-<p>dfghj</p>
+<h2 id="review-of-modules-success">Review of Module's Success</h2>
+<p>Looking back at the module requirements, most of the core functionality was successfully implemented. The system uses a PIC microcontroller as required, and the humidity sensor is able to take readings and send them through the communication chain. The data is successfully transmitted through the rover system and made available to the user through the MQTT gateway, which meets the main goal of reporting external environmental measurements.</p>
+<p>The humidity sensing requirement was mostly met. While the humidity was not formally measured against a calibrated reference, the SHTC3 sensor consistently produced reasonable and stable readings during testing. The data could be interpreted correctly by the microcontroller and passed along to the rest of the system without issues.</p>
+<p>The power requirement was also met in terms of functionality. The system used wall power as the input to the 3.3V voltage regulator, and the regulator functioned correctly in supplying stable power to the microcontroller and sensor. However, the original requirement mentioned a battery-powered system to allow the rover to remain wireless. That part was not implemented in the final design, so while the power system worked correctly, it did not fully meet the original wireless requirement.</p>
+<p>Overall, the main sensing and communication goals were achieved, and the system functioned reliably during testing, with the only major difference being the use of wall power instead of a battery.</p>
+<hr>
+<h2 id="microcontroller-module-startup-tips">Microcontroller / Module Startup Tips</h2>
+<ul>
+<li>Start with simple I/O testing before trying to integrate sensors or communication.</li>
+<li>Set up and test I²C communication early, since many sensors depend on it.</li>
+<li>Double and triple check that the components you plan to use are actually the ones you have configured and wired in your design.</li>
+<li>Give yourself a strong foundation with documentation (datasheets, notes, and configuration details) so you have something to reference when things go wrong.</li>
+<li>Use debug outputs whenever possible to see what the system is doing.</li>
+<li>Test each subsystem independently before integrating everything.</li>
+<li>Leave plenty of time for debugging, since it will take longer than expected.</li>
+<li>Add redundancy where possible, because something will end up failing at some point.</li>
+</ul>
+<hr>
 <h2 id="lessons-learned">Lessons Learned</h2>
-<ol>
-<li>ghj</li>
-<li>ghds</li>
-</ol>
+<p>One of the most important things learned during this project was how much simpler designs are often more reliable. The original plan included more complex communication structures and additional features, but simplifying the system made it easier to implement and debug.</p>
+<p>Another key lesson was the importance of testing each subsystem independently. When something didn’t work, breaking it down into smaller parts made it much easier to find the issue. This was especially important for getting I²C communication working correctly with the sensor.</p>
+<p>Working with real hardware also showed how important wiring and physical layout are. Even when the code is correct, issues like incorrect connections or noise can cause problems. This made it clear that hardware and software need to be developed together.</p>
+<p>The project also reinforced the importance of reading datasheets carefully. The SHTC3 sensor required specific communication steps, and understanding those details was necessary to get correct readings.</p>
+<p>Time management was another major lesson. Debugging and integration took longer than expected, especially when dealing with communication between nodes. Leaving more time for testing would have reduced last-minute pressure.</p>
+<p>Integration between team members was also an important experience. Even when individual subsystems worked, getting everything to communicate properly required coordination and additional debugging.</p>
+<p>Another takeaway was that documentation is more important than expected. Keeping track of design decisions made it easier to update diagrams and reports later.</p>
+<p>The value of having simple debug tools, like a button to force a sensor reading, became very clear. These features made testing faster and more reliable.</p>
+<p>It was also learned that initial design assumptions often change. Being flexible and willing to adjust the design was necessary to get a working system.</p>
+<p>Finally, the project showed that focusing on core functionality first is the best approach. Once the main features work, improvements can be added, but trying to implement everything at once makes the system harder to complete.</p>
+<hr>
 <h2 id="recommendations-for-future-students">Recommendations for Future Students</h2>
 <ol>
-<li>sfev</li>
-<li>sfvvf</li>
-<li></li>
+<li>Start working with your microcontroller and basic I/O as early as possible so you are comfortable before adding more complex components.</li>
+<li>Learn how to use I²C communication early, since many sensors depend on it and it can take time to get working correctly.</li>
+<li>Double and triple check that your selected components match your actual configuration and hardware setup to avoid mismatches later.</li>
+<li>Leave yourself plenty of time for debugging, since integration issues will take longer than expected.</li>
+<li>Build in redundancy and fallback options where possible, because something in the system will likely fail during development.</li>
 </ol>
 
 
