@@ -46,5 +46,5 @@ The final version is less complicated than what was originally planned, but itâ€
 
 ## Diagram Source Files
 
-- [Download PNDF](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/02-Block-Diagram/Final_314_Individual_block_diagram.drawio.pdf)
+- [Download PDF](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/02-Block-Diagram/Final_314_Individual_block_diagram.drawio.pdf)
 
