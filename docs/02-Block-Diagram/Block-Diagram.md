@@ -46,9 +46,5 @@ The final version is less complicated than what was originally planned, but itâ€
 
 ## Diagram Source Files
 
-- [Download Draw.io Source](../assets/your_diagram.drawio)
 - [Download PNG](../assets/your_diagram.png)
-- [Download ZIP of Assets](../assets/your_diagram_bundle.zip)
 
-All diagram source files are included so the diagram can be edited or recreated if needed.
-All diagram source files are included to ensure reproducibility and allow further editing if needed.
