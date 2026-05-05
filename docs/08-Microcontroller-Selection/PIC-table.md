@@ -2,10 +2,6 @@
 title: Microcontroller Selection
 ---
 
----
-title: Microcontroller Selection
----
-
 **Microcontroller Selection**
 
 **PIC18F57Q43-I/PT**
