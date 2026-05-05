@@ -26,4 +26,4 @@ for<br>
 
 * The system used a PIC18F57K42 chip, surface mounted on a custom PCB, and a SNAP debugger for programming. The PCB also contains all other neccesarry parts for the PIC to function with I2C connection.
 
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/04-BOM/BOM/) section of the datasheet.
+To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://riatron8.github.io/EGR314IndividualDataSheet/04-BOM/BOM/) section of the datasheet.
