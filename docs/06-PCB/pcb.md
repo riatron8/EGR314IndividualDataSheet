@@ -34,7 +34,7 @@ The full ECAD project is included as a .zip file to allow the PCB design to be r
 
 Gerber files are also included as a separate .zip file. These are the files used for PCB manufacturing and represent the final version of the board that was fabricated.
 
-- [Download ECAD Project (.zip)](../assets/PCB_Project.zip)
-- [Download Gerber Files (.zip)](../assets/Gerbers.zip)
+- [Download ECAD Project (.zip)](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/ESP_Schematic_Design_Final%20-%20PCB.zip)
+- [Download Gerber Files (.zip)](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/Final_Gerber.zip)
 
 
