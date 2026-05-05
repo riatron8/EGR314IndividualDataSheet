@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#pcb" class="md-skip">
+        <a href="#pcb-design-overview" class="md-skip">
           Skip to content
         </a>
       
@@ -852,9 +852,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#pcb" class="md-nav__link">
+  <a href="#pcb-design-overview" class="md-nav__link">
     <span class="md-ellipsis">
-      PCB
+      PCB Design Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-files-and-manufacturing-outputs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design Files and Manufacturing Outputs
     </span>
   </a>
   
@@ -1177,9 +1186,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#pcb" class="md-nav__link">
+  <a href="#pcb-design-overview" class="md-nav__link">
     <span class="md-ellipsis">
-      PCB
+      PCB Design Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-files-and-manufacturing-outputs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design Files and Manufacturing Outputs
     </span>
   </a>
   
@@ -1210,9 +1228,21 @@
 
   <h1>Module's PCB</h1>
 
-<h2 id="pcb">PCB</h2>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/92dca6cc-1.png" data-desc-position="bottom"><img alt="PCB" src="https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/92dca6cc-1.png"></a></p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/PCB.pdf" data-desc-position="bottom"><img alt="PCB" src="https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/PCB.pdf"></a></p>
+<h2 id="pcb-design-overview">PCB Design Overview</h2>
+<p>This page shows the final PCB design for the Riley Sensor Node (F), including both the design files and the manufactured board.</p>
+<p>The top and bottom copper layers from the PCB design are shown to illustrate the routing of signals, including the I²C lines between the PIC microcontroller and the SHTC3 sensor, as well as power and ground connections. These layers reflect the final schematic and demonstrate how the design was physically implemented.</p>
+<p>Images of the fabricated PCB are also included. This includes both the unpopulated board (as received from manufacturing) and the fully populated board after soldering and testing. These images show how the design translates from the ECAD layout into a physical system.</p>
+<p>The final PCB matches the updated schematic design and supports all required functionality, including sensor communication, button input, and power regulation.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/92dca6cc-1.png" data-desc-position="bottom"><img alt="PCB Top Copper" src="https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/92dca6cc-1.png"></a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/PCB.pdf" data-desc-position="bottom"><img alt="PCB Bottom Copper" src="https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/PCB.pdf"></a></p>
+<hr>
+<h2 id="design-files-and-manufacturing-outputs">Design Files and Manufacturing Outputs</h2>
+<p>The full ECAD project is included as a .zip file to allow the PCB design to be reviewed or modified. This includes the schematic and layout files used to generate the board.</p>
+<p>Gerber files are also included as a separate .zip file. These are the files used for PCB manufacturing and represent the final version of the board that was fabricated.</p>
+<ul>
+<li><a href="../assets/PCB_Project.zip">Download ECAD Project (.zip)</a></li>
+<li><a href="../assets/Gerbers.zip">Download Gerber Files (.zip)</a></li>
+</ul>
 
 
 
