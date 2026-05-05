@@ -1,24 +1,74 @@
 ---
 title: Module's Selected Major Components
 ---
+---
+title: Module's Selected Major Components
+---
 
 ## Module's Selected Major Components
 
-The following sections are the selected major components necessary for properly measuring the environement around the rover, and the power neccessary to keep the measurement operational.
+The final component selection for my individual subsystem focuses on the Riley Sensor Node (F). This node is responsible for reading environmental humidity and sending that information into the rover communication system. Since the individual subsystem is fairly specific, the main component decision was the environmental sensor, along with the PIC microcontroller configuration needed to read it.
 
+The final humidity sensor selected was the **SHTC3-TR-10KS**. I reviewed multiple sensor options before choosing it, including simpler temperature-only sensors and more accurate temperature sensors. The SHTC3 was selected because it measures both humidity and temperature over I²C, which made it a better fit for the final design than a temperature-only sensor.
 
+---
 
-### Power Management
+## Final Major Component Summary
 
-**Choice**: Option 1 - LM2595S-3.3/NOPB
+| Component | Selected Part | Purpose | Reason for Selection |
+|---|---|---|---|
+| Microcontroller | PIC Microcontroller | Reads the sensor and handles local control logic | Required for I²C communication and integration with the rest of the system |
+| Environmental Sensor | SHTC3-TR-10KS | Measures humidity and temperature | Provides humidity measurement, uses I²C, has a low pin count, and avoids needing a separate humidity sensor |
 
-**Rationale**: The LM2595S-3.3 switching regulator was selected as the final solution because it efficiently converts the 12 V system input voltage to the required 3.3 V rail used by the microcontroller and sensors. Unlike the AMS1117 linear regulator, which would dissipate a significant amount of power as heat when dropping from 12 V to 3.3 V, the LM2595 maintains high efficiency and significantly reduces thermal losses. While the MP1584EN also provides efficient voltage conversion, the LM2595 was chosen due to its simpler design requirements and widespread documentation, making it easier to implement reliably. Overall, the LM2595 provides the best balance of efficiency, reliability, and ease of implementation for the rover system.
+Passive components, wiring, and pushbuttons are not included in this table because the requirement only asks for major components.
 
-### Sensor
+---
 
-**Choice**: Option 2: MCP9808-E/MS
+## Sensor Selection Decision Process
 
-**Rationale**: This sensor is able to accurately detect humidity with a fairly low cost, even compared to the less precise option. Since a team member will be measuring temperature, the added temperature functionality is not needed and not worth the extra cost.
+The sensor choice changed from the earlier idea of only measuring temperature to a final design that measures humidity. This was important because the sensor node’s final role was environmental sensing, and humidity was the more relevant measurement for the final subsystem.
+
+I compared three sensor options:
+
+- **TC74A4-3.3VCTTR**
+- **MCP9808-E/MS**
+- **SHTC3-TR-10KS**
+
+The TC74A4 was familiar and simple because it had already been used in class, but it only measured temperature and did not meet the final humidity sensing goal. The MCP9808 was more accurate and had better resolution, but it was still only a temperature sensor. The SHTC3 was selected because it provides both humidity and temperature readings, uses I²C, and only requires a small number of pins.
+
+Even though the SHTC3 has a very small package and was less familiar to set up, it matched the final product requirements better than the other options. The extra setup difficulty was worth it because it avoided needing a separate humidity sensor.
+
+---
+
+## Requirements Alignment
+
+The SHTC3-TR-10KS meets the subsystem requirements because it directly supports the sensor node’s main function: measuring environmental humidity. Its I²C interface also works well with the PIC because it only requires SDA and SCL communication lines.
+
+Using a digital I²C sensor reduces the need for analog signal conditioning or ADC calibration. This makes the design simpler and more reliable, which was important for the final demonstration.
+
+The PIC microcontroller supports the subsystem by reading the sensor, responding to the debug button input, and sending the humidity reading into the rest of the system.
+
+---
+
+## MCC Configuration / PIC Pinout Table
+
+| PIC Pin | Function | Direction | Description |
+|---|---|---|---|
+| RC4 | SDA1 | In/Out | I²C data line for the SHTC3 humidity sensor |
+| RC3 | SCL1 | In/Out | I²C clock line for the SHTC3 humidity sensor |
+| RA5 | GPIO Input | Input | Button input used to force a sensor reading |
+| VDD | Power | Power | Supplies power to the PIC and sensor circuit |
+| GND | Ground | Ground | Common ground reference |
+
+---
+
+## Design Iteration and Feedback Integration
+
+The component selection was updated to better match the final design and the actual role of the sensor node. Earlier component choices focused more on general temperature sensing, but the final implementation required humidity data. Because of that, the final design moved toward the SHTC3-TR-10KS.
+
+The design was also simplified compared to earlier ideas. Instead of adding extra sensors or more complicated processing, the final design focuses on one environmental sensor that can provide the needed data reliably.
+
+This final component selection better matches the implemented subsystem and avoids including components that were not actually used.
 
 -----------
 **Environment Sensor**
@@ -115,8 +165,6 @@ The following sections are the selected major components necessary for properly 
 </table>
 
 <p><strong>Choice: Option 3 - SHTC3-TR-10KS</strong></p>
-
-<p><strong>Rationale:</strong> This sensor is able to detect both temperature and humidity, removing the need for a separate humidity sensor. In addition, only having 4 pins means that it should be simple to set up on the hardware side. For containing two different sensors, it is fairly cheap, and the reduced number of components is another benefit.</p>
 
 <br>
 
@@ -224,5 +272,3 @@ The following sections are the selected major components necessary for properly 
 </table>
 
 <p><strong>Choice: Option 1 - LM2595S-3.3/NOPB</strong></p>
-
-<p><strong>Rationale:</strong> The LM2595S-3.3 switching regulator was selected as the final solution because it efficiently converts the 12 V system input voltage to the required 3.3 V rail used by the microcontroller and sensors. Unlike the AMS1117 linear regulator, which would dissipate a significant amount of power as heat when dropping from 12 V to 3.3 V, the LM2595 maintains high efficiency and significantly reduces thermal losses. While the MP1584EN also provides efficient voltage conversion, the LM2595 was chosen due to its simpler design requirements and widespread documentation, making it easier to implement reliably. Overall, the LM2595 provides the best balance of efficiency, reliability, and ease of implementation for the rover system.</p>
