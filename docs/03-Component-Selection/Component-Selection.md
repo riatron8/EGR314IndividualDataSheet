@@ -1,9 +1,6 @@
 ---
 title: Module's Selected Major Components
 ---
----
-title: Module's Selected Major Components
----
 
 ## Module's Selected Major Components
 
