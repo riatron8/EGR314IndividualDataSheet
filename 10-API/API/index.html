@@ -89,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#api-compliance-overview" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -910,6 +915,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    API
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -919,6 +935,101 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#api-compliance-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      API Compliance Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#messages-used" class="md-nav__link">
+    <span class="md-ellipsis">
+      Messages Used
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Messages Used">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#outgoing-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outgoing Messages
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#incoming-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Incoming Messages
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#message-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      Message Format
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compliance-with-team-communication-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compliance with Team Communication Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verification-and-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verification and Testing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-decisions-and-deviations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design Decisions and Deviations
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1000,6 +1111,92 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#api-compliance-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      API Compliance Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#messages-used" class="md-nav__link">
+    <span class="md-ellipsis">
+      Messages Used
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Messages Used">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#outgoing-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outgoing Messages
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#incoming-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Incoming Messages
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#message-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      Message Format
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compliance-with-team-communication-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compliance with Team Communication Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verification-and-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verification and Testing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-decisions-and-deviations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design Decisions and Deviations
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1023,7 +1220,72 @@
 
   <h1>API</h1>
 
-
+<h2 id="api-compliance-overview">API Compliance Overview</h2>
+<p>The Riley Sensor Node (F) follows the team communication structure by sending humidity data using the defined message format. While the original design included a more complex packet-based protocol, the final implementation uses a simplified but consistent message structure that still meets the system requirements.</p>
+<p>The goal for this subsystem was to remain compatible with the team communication system while keeping the implementation simple and reliable.</p>
+<hr>
+<h2 id="messages-used">Messages Used</h2>
+<h3 id="outgoing-messages">Outgoing Messages</h3>
+<table>
+<thead>
+<tr>
+<th>Message</th>
+<th>Destination</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Humidity Data</td>
+<td>Gateway Node (W)</td>
+<td>Sends current humidity reading (forwarded through H)</td>
+</tr>
+<tr>
+<td>Debug Trigger (Button)</td>
+<td>Local</td>
+<td>Forces a new sensor reading</td>
+</tr>
+</tbody>
+</table>
+<h3 id="incoming-messages">Incoming Messages</h3>
+<p>This node does not require incoming messages for normal operation. All actions are either automatic or triggered locally through the button input.</p>
+<hr>
+<h2 id="message-format">Message Format</h2>
+<p>Humidity data is transmitted using the team-defined message structure. Messages follow a consistent format with start and end markers, source and destination identifiers, and a payload.</p>
+<p>An example humidity message is:</p>
+<p>AZFWH045BY</p>
+<p>In this message:
+- AZ represents the start of the message<br>
+- F represents the source node (sensor node)<br>
+- W represents the destination node (gateway/MQTT node)<br>
+- H indicates a humidity data message<br>
+- 045 is the humidity value (45%)<br>
+- BY represents the end of the message  </p>
+<p>This format matches the overall team communication protocol and ensures that messages can be correctly interpreted by other nodes in the system.</p>
+<hr>
+<h2 id="compliance-with-team-communication-structure">Compliance with Team Communication Structure</h2>
+<p>The node follows the required communication structure defined by the team:</p>
+<ul>
+<li>Data is generated at node F  </li>
+<li>Data is sent toward node W (gateway/MQTT node)  </li>
+<li>Data is physically routed through node H (camera system)  </li>
+<li>Data is published to MQTT for the user  </li>
+</ul>
+<p>This distinction between logical destination (W) and physical routing (through H) matches the team communication design.</p>
+<hr>
+<h2 id="verification-and-testing">Verification and Testing</h2>
+<p>Compliance was verified by observing successful transmission of humidity data through the system. Testing included:</p>
+<ul>
+<li>Triggering sensor readings using the button input  </li>
+<li>Confirming data passed through the camera system (H)  </li>
+<li>Verifying that the data reached the gateway node (W) and was published to MQTT  </li>
+</ul>
+<p>These tests confirmed that the node follows the expected communication flow and produces valid data messages.</p>
+<hr>
+<h2 id="design-decisions-and-deviations">Design Decisions and Deviations</h2>
+<p>The original design included a more structured packet-based communication protocol with message types, acknowledgements, and error handling. However, the final implementation simplified this structure because those features were not required for the subsystem to function.</p>
+<p>This decision reduced complexity and improved reliability, while still maintaining compatibility with the overall system communication flow.</p>
+<p>The simplified message format still meets the functional requirements of the system and allows the node to integrate correctly with the rest of the rover.</p>
 
 
 
