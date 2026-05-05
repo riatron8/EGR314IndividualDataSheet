@@ -20,7 +20,7 @@ for<br>
 
 ### Project Summary
 
-* The goal of the team is to create a rover that can be controlled remotely, and is able to explore an environment while sending messages back to the user. Each team member communicated to each other through connecters on each board, which can be found in more detail in this[team report.](https://asu-egr314-301-s-2026.github.io/EGR314-Team301/)
+* The goal of the team is to create a rover that can be controlled remotely, and is able to explore an environment while sending messages back to the user. Each team member communicated to each other through connecters on each board, which can be found in more detail in this [team report.](https://asu-egr314-301-s-2026.github.io/EGR314-Team301/)
 
 ### My Contribution
 
