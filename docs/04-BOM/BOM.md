@@ -15,4 +15,4 @@ This bill of materials reflects the full price and material cost of the design f
 
 ## Resouce
 
-The Bill of Material as a PDF download is available [*here*](https://github.com/riatron8/EGR314IndividualDataSheet/blob/main/docs/04-BOM/Final_BOM.png).
+The Bill of Material as a PDF download is available [*here*](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/04-BOM/Final_BOM.png).
