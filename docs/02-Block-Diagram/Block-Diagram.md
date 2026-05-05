@@ -10,7 +10,7 @@ This block diagram shows the planning for the final board. The overall goal is t
 
 ## Block Diagram 
 
-![Individual Block diagram ](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/02-Block-Diagram/Final_314%20Individual%20block%20diagram.drawio.png)
+![Individual Block diagram ](https://github.com/riatron8/EGR314IndividualDataSheet/blob/main/docs/02-Block-Diagram/Final_314_Individual_block_diagram.drawio.png)
 
 ## Block Diagram Design Process
 
@@ -46,5 +46,5 @@ The final version is less complicated than what was originally planned, but itâ€
 
 ## Diagram Source Files
 
-- [Download PNG](../assets/your_diagram.png)
+- [Download PNDF](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/02-Block-Diagram/Final_314_Individual_block_diagram.drawio.pdf)
 
