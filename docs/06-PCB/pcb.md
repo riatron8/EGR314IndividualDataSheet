@@ -12,9 +12,19 @@ Images of the fabricated PCB are also included. This includes both the unpopulat
 
 The final PCB matches the updated schematic design and supports all required functionality, including sensor communication, button input, and power regulation.
 
-![PCB Top Copper](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/92dca6cc-1.png)
+![PCB Top Populated](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/PCB_Top_Pop.png)
 
-![PCB Bottom Copper](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/PCB.pdf)
+![PCB Bottom Populated](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/PCB_Back_Pop.png)
+
+![PCB Top Raw](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/PCB_Raw_Pop.png)
+
+![PCB Bottom Raw](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/PCB_Back_Raw.png)
+
+![PCB Top Copper](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/PCB_Top_Copper.png)
+
+![PCB Bottom Copper](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/PCB_Bottom_Copper.png)
+
+
 
 ---
 
