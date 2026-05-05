@@ -20,9 +20,9 @@ The final PCB matches the updated schematic design and supports all required fun
 
 ![PCB Bottom Raw](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/PCB_Back_Raw.png)
 
-![PCB Top Copper](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/PCB_Top_copper.png)
+![PCB Top Copper](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/Top_copper.png)
 
-![PCB Bottom Copper](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/PCB_Bottom_copper.png)
+![PCB Bottom Copper](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/06-PCB/Bottom_copper.png)
 
 
 
