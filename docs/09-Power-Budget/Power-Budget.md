@@ -17,4 +17,4 @@ A regulated 12 V wall adapter was selected as the external power source. The sup
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/09-Power-Budget/Power_budget_pic.pdf), and a Microsoft Excel Sheet [*here*](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/09-Power-Budget/Power_Budget_Completed.xlsx).
+The power budget as a PDF download is available [*here*](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/09-Power-Budget/314_Final_Power_Budget.pdf), and a Microsoft Excel Sheet [*here*](https://github.com/riatron8/EGR314IndividualDataSheet/raw/main/docs/09-Power-Budget/Final_Power_Budget.xlsx).
